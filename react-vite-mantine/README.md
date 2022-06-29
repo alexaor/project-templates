@@ -21,7 +21,7 @@ Mantine as a design system.
 - Add boilerplate routing with Public and Private routes
 - Error boundary
 - Pretty quick auto-formatting
-- 
+- Implement some boilerplate for formhandling using mantine forms library
 
 ## Changelog
 
