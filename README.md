@@ -10,4 +10,7 @@ A collection of different project templates for experimentation and bootstrappin
 
 - Initialized the repo
 - Initialized gitmoji commit hook
+- Add barebone react vite project
+- Add react vite mantine project
+- Remove gitmoji hook
 
