@@ -1,4 +1,6 @@
 import { MantineProvider } from '@mantine/core'
+import { ModalsProvider } from '@mantine/modals'
+import { NotificationsProvider } from '@mantine/notifications'
 import { MainLayout } from './MainLayout'
 
 const theme = {
@@ -10,7 +12,11 @@ const theme = {
 export const Root: React.FC<{}> = ({}) => {
   return (
     <MantineProvider theme={theme}>
-      <MainLayout />
+      <NotificationsProvider>
+        <ModalsProvider>
+          <MainLayout />
+        </ModalsProvider>
+      </NotificationsProvider>
     </MantineProvider>
   )
 }
