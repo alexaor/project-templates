@@ -1,11 +1,9 @@
 import { AppShell, Text, useMantineTheme } from '@mantine/core'
-import { useState } from 'react'
+import { Dashboard } from 'modules/Dashboard'
 import { Header } from './Header'
 import { NavBar } from './NavBar'
 
 export const MainLayout: React.FC<{}> = ({}) => {
-  const [count, setCount] = useState(0)
-
   const theme = useMantineTheme()
   return (
     <AppShell
@@ -23,7 +21,7 @@ export const MainLayout: React.FC<{}> = ({}) => {
       navbar={<NavBar />}
       header={<Header />}
     >
-      <Text>Resize app to see responsive navbar in action</Text>
+      <Dashboard />
     </AppShell>
   )
 }
