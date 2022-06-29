@@ -8,5 +8,6 @@ A collection of different project templates for experimentation and bootstrappin
 
 ### 2022 29th June
 
-Initialized the repo
+- Initialized the repo
+- Initialized gitmoji commit hook
 
